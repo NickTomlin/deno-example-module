@@ -1,4 +1,4 @@
-export const name = "Nick"
-export function greet (greeting) {
+export const defaultGreeting = "Greeting"
+export function greet (name: string, greeting: string = defaultGreeting) {
   return `${greeting}, ${name}`
 }
